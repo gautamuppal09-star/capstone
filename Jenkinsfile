@@ -4,7 +4,7 @@ pipeline {
     environment {
         AWS_APP_IP = '13.220.182.104'
         AZURE_APP_IP = '20.124.112.221'
-        SSH_KEY = '/home/ubuntu/22oct.pem'
+        SSH_KEY = '/var/lib/jenkins/.ssh/22oct.pem'
     }
 
     stages {
